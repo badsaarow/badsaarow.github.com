@@ -4,4 +4,4 @@
 
 - categorizing items
 - clean codes
-- 
+- vue3 best practices
