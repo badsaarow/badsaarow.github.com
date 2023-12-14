@@ -1,0 +1,152 @@
+﻿/*  ocher  */
+body { 
+	width:100%;
+	margin:0;
+	padding:0;
+	font-size:.75em;
+	line-height:1.7em;
+	color:#393939;
+	background-color:#efeff4;
+	text-align:center;
+	}
+a:link, a:visited {color:#925a01;text-decoration:none;}
+a:hover, a:active {color:#fff;background-color:#925a01;}
+/* position 스타일 시작 */
+.body {
+	text-align:left;
+	width:783px;
+	margin:0 auto;
+	background:transparent url("../../../../../skn/img/a/01/04/5/dove_ocher_mid.gif") repeat-y 0 0;
+	}
+.header {
+	padding:39px 0 20px 15px;
+	background:#efeff4 url("../../../../../skn/img/a/01/04/5/dove_ocher_top.gif") no-repeat 0 100%;
+	}
+.container {
+	padding:0 12px 0 1px;
+	background:transparent url("../../../../../skn/img/a/01/04/5/dove_ocher_bot.gif") no-repeat 0 100%;
+	}
+.content_wrap {
+	float:left;display:inline;overflow:hidden;
+	width:550px;
+	padding:5px 17px;
+	text-align:left;
+	}
+#section_sidebar1 {
+	float:right;display:inline;overflow:hidden;
+	width:170px;
+	text-align:center;
+	color:#828282;
+	}
+.footer {
+	clear:both;
+	text-align:center;
+	height:55px;
+	padding-right:180px;
+	}
+/* position 스타일 끝 */
+/* header 스타일 시작 */
+.header p,
+.header h1 {margin:0;padding:0;}
+.header h1 {
+	font-size:2.6em;
+	font-weight:normal;
+	line-height:1em;
+	padding:0;
+	letter-spacing:-1px;
+	}
+.header h1 a {color:#e20000;}
+.header p.url a {
+	padding-left:2px;
+	color:#525454;
+	font-size:.9em;
+	line-height:1.5em;
+	}
+.header h1 a:hover,
+.header p.url a:hover {
+	background:none;
+	text-decoration:underline;
+	}
+.header p.topmenu {
+	font-size:.9em;
+	line-height:1.1em;
+	margin:6px 0 0 0;
+	padding:0;
+	text-align:right;
+	color:#ccc;
+	}
+.header p.topmenu a {margin-left:10px;}
+/* header 스타일 끝 */
+/* content 스타일 시작 */
+.content {padding:0;margin:0 0 30px 0;text-align:left;}
+.post_view {padding:1px 0;text-align:left;overflow:hidden;_word-break:break-all;}
+.post_view,.post_oneview {margin-bottom:60px;}
+.post_summary,.post_magazine,.post_tagcloud {margin-bottom:20px;}
+.post_view .post_title h2 {
+	font-size:14px;
+	font-weight:bold;
+	color:#393939;
+	border-bottom:1px solid #DCDCC6;
+	background:#F5F5EF url('../../../../../skn/img/a/01/04/5/dove_title.gif') no-repeat 5px center;
+	padding-left:25px;
+    }
+.post_view .post_title h2 a:link,
+.post_view .post_title h2 a:visited {color:#393939;text-decoration:none;background:none;}
+.post_view .post_title h2 a:hover,
+.post_view .post_title h2 a:active {color:#393939;text-decoration:underline;background:none;}
+.post_view .post_title span {color:#999;}
+.post_view .post_title span a:link,
+.post_view .post_title span a:visited {color:#999;}
+.post_view .post_title span a:hover, 
+.post_view .post_title span a:active {color:#999;text-decoration:underline;}
+.post_content {overflow:hidden;_word-break:break-all;}
+.post_titlelist h2,.post_summary h2,.post_simplelist h2,.post_tagcloud h2 {
+	font-size:14px;
+	font-weight:bold;
+	color:#393939;
+	border-bottom:1px solid #DCDCC6;
+	background:#F5F5EF;
+    }
+.post_summary h2 {border-bottom:0;}
+.post_titlelist h2 a:link,.post_summary h2 a:link,.post_simplelist h2 a:link,.post_tagcloud h2 a:link,
+.post_titlelist h2 a:visited,.post_summary h2 a:visited,.post_simplelist h2 a:visited,.post_tagcloud h2 a:visited
+	{color:#393939;text-decoration:none;background:none;}
+.post_titlelist h2 a:hover,.post_summary h2 a:hover,.post_simplelist h2 a:hover,.post_tagcloud h2 a:hover,
+.post_titlelist h2 a:active,.post_summary h2 a:active,.post_simplelist h2 a:active,.post_tagcloud h2 a:active
+	{color:#393939;text-decoration:underline;background:none;}
+.post_info {color:#999;}
+.post_meta_area ul.post_meta_content em.date {color:#999;}
+.post_footer_area {font-size:.9em;
+	border-top:1px solid #DCDCC6;border-bottom:1px solid #DCDCC6;}
+.widemenu {margin:0 auto;text-align:left;}
+.widemenu .wide_blank {display:none;}
+.widemenu h3 {font-size:12px;color:#393939;}
+.post_paging,.post_navi {margin:0 auto;text-align:center;}
+.post_navi {text-align:left;}
+/* content 스타일 끝 */
+/* comment 및 trackback 스타일 시작 */
+.post_link {border:1px solid #E6E6D6;padding:10px 15px;background:#FAFAF5;}
+.post_link h3 {font-size:11px;border-bottom:1px dotted #E6E6D6;}
+.post_trackback .trackback_help {border-bottom:1px dotted #E6E6D6;}
+.post_link h4 {font-size:12px;}
+/* comment 및 trackback 스타일 끝 */
+/* sidebar 스타일 시작 */
+.column {}
+.column .widget {
+	padding:0;
+	margin:0 0 10px 0;
+	text-align:left;
+	overflow:hidden;
+}
+.column .widget h3 {
+	margin:0;
+	padding:3px 0 1px 18px;
+	font-size:9pt;
+	font-weight:bold;
+	color:#fff;
+	background:url('../../../../../skn/img/a/01/04/5/dove_sidetitle.gif') no-repeat 0 center;
+}
+.column .widget .widget_content {padding-bottom:10px;}
+.column .menu_profile {padding-top:10px;margin-bottom:10px;}
+/* sidebar 스타일 끝 */
+

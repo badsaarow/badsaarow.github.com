@@ -1,0 +1,54 @@
+﻿input.button {font-family:'돋움',Sans-serif;margin:0;padding:2px 5px 0 5px;border:1px;border-style:solid;border-color:#ddd #c4c4c4 #c4c4c4 #ddd;background-color:#fff;cursor:pointer;cursor:hand;}
+/* IE Hack */
+*html input.button {padding:2px 0 0 0;}
+
+input.button:active {border-style:double;border-color:#aaa #e5e5e5 #e5e5e5 #aaa;color:#555;}
+input.button:hover {border-style:double;color:#00729b;}
+
+input.btn_bold {color:#333;}
+input.btn_weak {color:#999;}
+
+input.btn_big_bold {color:#333;font-weight:bold;}
+input.btn_big_weak {color:#999;font-weight:normal;}
+
+/*
+btn_(height of button)
+ex) if size = 18 then
+<input class="button btn18" />
+*/
+
+input.btn18 {background:#fff url("../../img/lib/bt18.gif");height:18px;font-size:11px;padding:0;}
+input.btn20 {background:#fff url("../../img/lib/bt20.gif");height:20px;font-size:12px;}
+input.btn22 {background:#fff url("../../img/lib/bt22.gif");height:22px;font-size:12px;}
+input.btn24 {background:#fff url("../../img/lib/bt24.gif");height:24px;font-size:12px;}
+input.btn28 {background:#fff url("../../img/lib/bt28.gif");height:28px;font-size:12px;}
+input.btn30 {background:#fff url("../../img/lib/bt30.gif");height:30px;font-size:12px;}
+input.btn35 {background:#fff url("../../img/lib/bt35.gif");height:35px;font-size:12px;padding:0 10px;}
+input.btn40 {background:#fff url("../../img/lib/bt40.gif");height:40px;font-size:14px;}
+
+input.btn_request { width:80px; height:33px; border:none; background:url('') no-repeat; font:0/0 verdana; }
+
+
+/* 렛츠리뷰 메인 버튼 */
+.reviewbox .reviewbox_main .inner_right .other_list li a { display:block; width:18px; height:15px; font:0/0 verdana; text-indent:-10000em; overflow:hidden; }
+.reviewbox .reviewbox_main .inner_right .other_list li .first { background:url('../../images/review/btn_1_off.gif') left top no-repeat; }
+.reviewbox .reviewbox_main .inner_right .other_list li .first_on { background:url('../../images/review/btn_1_on.gif') left top no-repeat; }
+.reviewbox .reviewbox_main .inner_right .other_list li .first:hover { background:url('../../images/review/btn_1_on.gif') left top no-repeat; }
+.reviewbox .reviewbox_main .inner_right .other_list li .sec { background:url('../../images/review/btn_2_off.gif') left top no-repeat; }
+.reviewbox .reviewbox_main .inner_right .other_list li .sec_on { background:url('../../images/review/btn_2_on.gif') left top no-repeat; }
+.reviewbox .reviewbox_main .inner_right .other_list li .sec:hover { background:url('../../images/review/btn_2_on.gif') left top no-repeat; }
+.reviewbox .reviewbox_main .inner_right .other_list li .thd { background:url('../../images/review/btn_3_off.gif') left top no-repeat; }
+.reviewbox .reviewbox_main .inner_right .other_list li .thd_on { background:url('../../images/review/btn_3_on.gif') left top no-repeat; }
+.reviewbox .reviewbox_main .inner_right .other_list li .thd:hover { background:url('../../images/review/btn_3_on.gif') left top no-repeat; }
+.reviewbox .reviewbox_main .inner_right .other_list li .for { background:url('../../images/review/btn_4_off.gif') left top no-repeat; }
+.reviewbox .reviewbox_main .inner_right .other_list li .for_on { background:url('../../images/review/btn_4_on.gif') left top no-repeat; }
+.reviewbox .reviewbox_main .inner_right .other_list li .for:hover { background:url('../../images/review/btn_4_on.gif') left top no-repeat; }
+.reviewbox .reviewbox_main .inner_right .other_list li .fifth { background:url('../../images/review/btn_5_off.gif') left top no-repeat; }
+.reviewbox .reviewbox_main .inner_right .other_list li .fifth_on { background:url('../../images/review/btn_5_on.gif') left top no-repeat; }
+.reviewbox .reviewbox_main .inner_right .other_list li .fifth:hover { background:url('../../images/review/btn_5_on.gif') left top no-repeat; }
+
+.reviewbox .reviewbox_main .inner_left .inner_wrap .review_info .btn_wrap {position:absolute; top:-4px; left:50px; }
+.reviewbox .reviewbox_main .inner_left .inner_wrap .review_info .btn_wrap a {display:block; width:70px; height:19px; font:0/0 verdana; text-indent:-10000em; overflow:hidden; background:url('../../images/review/btn_more2.gif') left top no-repeat;}
+
+
+.reviewNewArticle input.writeReview { float:right;margin:8px 0 0 0; }

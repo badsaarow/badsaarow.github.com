@@ -1,0 +1,170 @@
+﻿<!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko">
+<head>
+	<meta http-equiv="pragma" content="no-cache">
+	<meta http-equiv="cache-control" content="no-cache">
+
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+	<meta name="author" content="언젠가는">
+	<meta name="keywords" content="언젠가는의 포토로그">
+	<meta http-equiv="imagetoolbar" content="false">
+
+	<title>언젠가는의 포토로그 : Tag > 전체</title>
+
+    <link href="../../img/favicon.ico" rel="shortcut icon">
+    <link rel="apple-touch-icon-precomposed" href="../../img/egloos_144.png">
+
+	<style type="text/css" media="screen" title="layout">
+	@import url("../../css/style_photo.css");
+	@import url("../../skn/pht/a/01/00/a01001_01.css");
+	</style>
+	<script type="text/javascript" src="../../js/ap.js?ver=20170110"></script>
+	<script type="text/javascript" src="../../js/gd.js?ver=1.002"></script>
+    <script type="text/javascript" src="../../js/page/ins.js?ver=1.4"></script>
+
+	<script type="text/javascript" src="../../js/lib/prototype_v1511.js"></script>
+	<script type="text/javascript" src="../../js/lib/scriptaculous/effects.js"></script>
+
+	<script type="text/javascript" src="../../js/photo/ph_140114.js?ver=1.001"></script>
+	<script type="text/javascript" src="../../js/photo/Photo.Overlapper.js"></script>
+	<script type="text/javascript" src="../../js/photo/PhotoAlbum_140114.js?ver=1.003"></script>
+	<script type="text/javascript" src="../../js/photo/PhotoComment.js?ver=20170323"></script>
+	<script type="text/javascript" src="../../js/photo/PhotoNavigation.js"></script>
+	<script type="text/javascript" src="../../js/photo/PhotoSlideList.js"></script>
+
+	<link rel="alternate" type="application/rss+xml" title="언젠가는의 포토로그" href="../photo.xml">
+
+<link type="text/css" rel="stylesheet" href="../../css/egloo_navibar.css?ver=20190927" media="screen">
+<script type="text/javascript" src="../../js/egloo_navibar.js?ver=20200110"></script>
+<script type="text/javascript">
+//<![CDATA[
+    var info = null;
+    var info = {
+        'egl' : '1',
+        'url' : 'http://badsaarow.egloos.com/',
+        'blogid' : 'a0109780',
+        'userid' : 'sypark33@empas.com',
+        'blogurl' : 'badsaarow',
+        'usernick' : '언젠가는',
+        'eglooid' : 'a0109780',
+        'egloourl' : 'badsaarow',
+        'egloonm' : '언젠가는 마추피추를..',
+        'encegloonm' : '7Ja47KCg6rCA64qUIOuniOy2lO2UvOy2lOulvC4u',
+        'egloonick' : '언젠가는',
+        'egloosec' : '1',
+        'posttitle' : '',
+        'encposttitle' : '',
+        'encpostsummary' : '',
+        'postnick' : '',
+        'photo'    : '1',
+        'adm'    : '0',
+        'pagekey' : '',
+        'viewopt' : '1',
+        'navcolor' : 'w',
+        'navstatic' : '',	
+        'pg' : '1',
+        'xhtml' : '0'
+    };
+
+    var html= '<div id="navibar" onmouseover="nav_view(\'hid\',\''+ info.navstatic +'\',\'1\',\''+info.navcolor+'\',\''+info.xhtml+'\',event)" onmouseout="nav_view(\'hid\',\''+ info.navstatic +'\',\'0\',\''+info.navcolor+'\',\'' + info.xhtml + '\',event)" style="min-width: 1000px; width: 100% !important; width:100%;">'
+            +'<ul class="navigator">'
+            +'<li class="home"><div class="navi_menu"><a href="http://www.egloos.com/" title="이글루스홈" onfocus="blur();" >이글루스홈</a></div></li>'
+            +'<li class="alarm"><div class="navi_menu"><a href="javascript:announce_click();" title="마이 업데이트알림" onfocus="blur();" >알림<img src="http://md.egloos.com/img/nav/ico_new_none.gif" class="ico" alt="" border="0"/></a></div></li>'
+            +'<li id="egloo_link_li" class="egloolink">'
+            + nav_updatepostlist(info.egloourl)
+            +'</li>'
+            +'<li class="linkadd">'
+            + nav_addlink(info.userid, info.blogid, info.eglooid, info.egloourl, info.egloonm, info.egloosec,info.photo)
+            +'</li>'
+            +'<li class="checkpost">'
+            + nav_checkpost(info.blogid, info.eglooid, info.egloourl, info.pagekey, info.pg, info.pagekey,info.photo)
+            +'</li>'
+            +'<li class="sharebtn">'
+            + nav_sharebtn(info.blogid, info.eglooid, info.egloourl, info.egloonm, info.encegloonm, info.egloonick, info.pagekey, info.posttitle, info.postnick, info.encposttitle, info.encpostsummary, info.photo, info.adm)
+            +'</li>'
+            +'</ul>'
+            +'<ul class="naviadminmenu">'
+            + nav_admin(info)
+            +'</ul>'
+            +'</div>'
+            +'<div id="navibar_hiddenlayer" class="navibar_hiddenlayer" onmouseover="nav_view(\'v\',\''+ info.navstatic +'\',\'1\',\''+info.navcolor+'\',\''+info.xhtml+'\')"></div>';
+            if(info.viewopt == 1){
+                html +='<div id="navbar_space" style="border: 1px solid transparent;_border:0; height: 24px; display: block;"></div>';
+            } else {
+                html +='<div id="navbar_space" style="border: 1px solid transparent;_border:0; height: 24px; display: none;"></div>';
+            }
+    document.write(html);
+    nav_view('c',info.navstatic,info.viewopt,info.navcolor,info.xhtml,null);
+//]]>
+</script>
+</head>
+<body>
+	<div class="slidelayer" id="slidelayer" style="display:none;">
+		<div class="close">
+			<span><a href="#" onclick="photolog.slideExcute(false);"></a></span>
+		</div>
+		<div id="slideflash"></div>
+	</div>
+	<div id="container">
+	<div id="header">
+		<h1 class="title"><a href="../../photo.html">언젠가는의 포토로그</a></h1>
+		<div class="url"><a href="../../index.htm">badsaarow.egloos.com</a> <span class="split">-</span> <a href="../../photo.html">photo (0개앨범/0개사진)</a></div>
+		<div class="adminmenu"><a href="http://www.egloos.com">egloos</a>|<a href="../../index.htm">my egloo</a>|<a href="http://www.egloos.com/photo/album_insert.php?eid=a0109780">new album</a>|<a href="http://admin.egloos.com/photolog/album">config</a>|<a href="https://sec.egloos.com/logout.php">log-out</a></div>
+	</div>
+	<hr class="line">
+
+		<div id="content">
+		<div class="tag_header">
+			<h2 class="tag_title"><span class="title">Tag</span><span class="current">: 전체</span></h2>
+			<div class="tag_cloud"><span class="current"><a href="index.htm">전체(0)</a></span> 
+			<span class="help">※ 태그는 사진에 포함되어 있는 Meta 정보를 바탕으로 구성되었습니다. 사진마다 직접 태그를 붙일 수 있습니다.</span></div>
+		</div>
+		<div class="thumbnail archive">
+			<ul class="thumbnail"></ul>
+		</div>		
+	</div>
+	<hr class="line">
+
+	<div id="prevnext">&laquo; 이전 &nbsp;&nbsp;<a href="../tag.html" title="">전체</a>&nbsp;&nbsp; 다음 &raquo;</div>
+	<hr class="line">
+
+	<div id="footer">
+		<div class="submenu">
+			<ul id="navlist"><li><a href="../../photo.html" title="포토로그 메인">Home</a></li><li><a href="../archives/index.htm" title="월별 리스트보기">Archive</a></li><li><a href="index.htm" title="태그리스트보기">Tag</a></li></ul>
+		</div>
+		<div class="license">Copyright&copy; <a href="../../index.htm">badsaarow.egloos.com</a>&nbsp;&nbsp;<a href="../photo.xml" title="photo RSS"><img src="../../img/skn/rss.gif" alt="rss"></a>&nbsp;&nbsp;<a href="http://www.egloos.com"><img src="../../img/skn/photolog_banner2.gif" width="80" height="14" alt="powered by egloos"></a></div>
+	</div>
+</div>    <div id="ndrarea" style="display:none;"></div>
+	<form action="http://www.egloos.com/egloo/insert.php" name="album_frm" method="post">
+		<input type="hidden" name="eid" value="a0109780">
+		<input type="hidden" name="subject" value="포토로그 태그 - 전체">
+		<input type="hidden" name="title" value="">
+	</form>
+	<script type="text/javascript" language="javascript1.2">
+	<!--
+		function Albuminit() {
+				    this.eid		 = 'a0109780';
+		    this.albumtitle	 = '포토로그 태그 - 전체';
+				}
+
+		var AlbumInfo = new setAlbum();
+		AlbumInfo.init();
+
+			//-->
+	</script>
+
+<!-- Facebook Pixel Code -->
+<script>
+    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+        n.push=n;n.loaded=!0;n.version="2.0";n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+        document,"script","https://connect.facebook.net/en_US/fbevents.js");
+
+    fbq("init", "654342331381106");
+    fbq("track", "PageView");</script>
+<noscript><img height="1" width="1" style="display:none" src="../../tr?id=654342331381106&ev=PageView&noscript=1"></noscript>
+<!-- End Facebook Pixel Code --><iframe src="http://statweb.egloos.com/estat/send?bid=a0109780&ref=&uid=sypark33%40empas.com&mbid=a0109780&openflag=" style="width: 0px; height: 0px; border: 0px solid #fff;"></iframe>
+<img width="0" height="0" border="0" src="../../egloo_pds.php.html?eid=a0109780" alt="" style="display: none">
+</body>
+</html>

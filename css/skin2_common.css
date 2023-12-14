@@ -1,0 +1,83 @@
+﻿body {margin:0;padding:0;text-align:center;}
+/*---------- post_tag ----------*/
+.post_taglist {clear:both;margin:15px 0;padding:0 0 0 30px;background:url('../skn/img/common/ico_tag.gif') no-repeat 0 0;line-height:1.2em;}
+.post_taglist strong {display:none;}
+a.tag_level_5 {font-weight:bold;font-size:2.2em;}
+a.tag_level_4 {font-weight:normal;font-size:1.8em;}
+a.tag_level_3 {font-weight:bold;font-size:1.5em;}
+a.tag_level_2 {font-weight:normal;font-size:1.2em;}
+a.tag_level_1 {font-weight:normal;font-size:1em;}
+/*---------- post_content img ----------*/
+.post_content img.image_top {margin-bottom:15px;}
+.post_content img.image_mid {margin:15px 0;}
+.post_content img.image_left {margin:0 15px 10px 0;float:left;}
+.post_content img.image_right {margin:0 0 15px 10px;float:right;}
+/* Social Plugin */
+.post_share_area {clear:both;line-height:1em;}
+.post_share_area h3 {display:none;}
+.post_share_area .post_share_button {clear:both;width:100%;}
+.post_share_area .post_share_button td.button {width:340px;}
+.post_share_area .post_share_button td.icont {width:55px;}
+.post_share_area .post_share_button td.clog {width:273px;}
+.post_share_area .post_share_button td.twitter {width:60px;}
+.post_share_area .post_share_button td.facebook {width:385px;}
+.post_share_area .post_share_button td.blank {width:auto;}
+.post_share_area .post_share_button .post_share_btnitem {float:left;display:inline;}
+.post_share_area .post_share_button .post_share_btnitem ul {margin:0;padding:0;}
+.post_share_area .post_share_button .post_share_btnitem li {margin:0;padding:0;}
+.post_share_area .post_share_button td.icont img.img_icon {margin-left:3px;}
+.post_share_area .post_share_button td.icont .post_share_btnitem {height:18px;}
+/* 소셜플러그인 #navibar .post_share_btnitem {float:left;display:inline;margin-right:4px;} */
+/*---------- post_meta_area ----------*/
+.post_meta_area {clear:both;position:relative;height:100%;margin:20px 0 15px 0;padding:40px 0 0 0;background:url('../skn/img/common/bg_meta_menu.png') repeat-x 0 top;}
+.post_meta_area h3 {display:none;}
+.post_meta_area h4 {position:absolute;top:0;width:150px;height:20px;margin:0;padding:10px 0 0 0;background:url('../skn/img/common/bg_tabpl_off.png') no-repeat;font-weight:normal;font-size:12px;line-height:1;text-align:center;cursor:pointer;}
+.post_meta_area h4 a {text-decoration:none;}
+.post_meta_area h4.post_meta_title1 {left:2px;}
+.post_meta_area h4.post_meta_title2 {left:151px;}
+.post_meta_area h4.post_meta_title3 {left:300px;}
+.post_meta_area h4.post_meta_title1_on {left:2px;font-weight:bold;}
+.post_meta_area h4.post_meta_title2_on {left:151px;font-weight:bold;}
+.post_meta_area h4.post_meta_title3_on {left:300px;font-weight:bold;}
+.post_meta_area .post_meta_menu {padding:1px 10px 0 10px;}
+.post_meta_area ul.post_meta_content {margin:0;padding:5px 5px 5px 15px;}
+.post_meta_area ul.post_meta_content em {font-style:normal;padding-left:5px;}
+.post_meta_area ul.post_meta_content em.fn {font-size:.9em;}
+.post_meta_area ul.post_meta_content em.date {font-size:.8em;font-family:verdana,sans-serif;}
+.post_meta_area ul.post_meta_content strong {padding:1px 0;font-weight:normal;}
+.post_meta_area ul.post_meta_content ul {margin:0;padding:0 0 5px 15px;}
+* html .post_meta_area {background-image:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://md.egloos.com/skn/img/common/common/bg_meta_menu.png',sizingMethod='crop');}
+* html .post_meta_area h4 {background-image:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://md.egloos.com/skn/img/common/bg_tabpl_off.png',sizingMethod='crop');}
+* html .post_meta_area h4.post_meta_title1_on {background-image:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://md.egloos.com/skn/img/common/bg_tabpl_on.png',sizingMethod='crop');}
+* html .post_meta_area h4.post_meta_title2_on {background-image:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://md.egloos.com/skn/img/common/bg_tabpl_on.png',sizingMethod='crop');}
+* html .post_meta_area h4.post_meta_title3_on {background-image:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://md.egloos.com/skn/img/common/bg_tabpl_on.png',sizingMethod='crop');}
+
+/*---------- egloo notice ----------*/
+.layer_post_notice {
+    background: url("../img/eglooadmin/bg_blog_notice.png") repeat scroll 0 0 transparent;
+    height: 100%;
+    margin: 20px 0;
+    padding: 30px 40px 25px;
+    position: relative;
+    text-align: left;
+}
+/*---------- system style ----------*/
+hr.line {display:none;}
+.accessibilityLink {display:none;}
+.f_clear:after {content:"";height:0;display:block;visibility:hidden;clear:both;} * html .f_clear {height:1px;} .f_clear {display:block;min-height:1px;}
+.clear {clear:both;float:none;width:0;height:0;padding:0;font:0/0 arial;line-height:0;}
+form,fieldset,iframe {margin:0;padding:0;border:none;}
+fieldset legend {display:none;}
+img {border:0;vertical-align:middle;}
+select,input,textarea {color:#666;font:normal 12px '돋움',sans-serif;vertical-align:middle;}
+
+
+/*---------- inline popup ----------*/
+
+.popup_overlay {background-color: #000000;}
+.popup_image {border: 1px solid #999999; background-color: white; margin-right:5px;}
+
+/*---------- egloos copyright ----------*/
+div.copy_egloos { display:none i}
+
+

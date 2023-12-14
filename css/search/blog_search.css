@@ -1,0 +1,168 @@
+﻿/* 검색결과 skin2*/
+.post_titlelist .post_search {position:relative;margin-bottom:25px;padding:15px 15px 10px 15px;text-align:center;border:1px solid #eeeeee;color:#555555;background:url('../../img/fnd/bg_search_form.png') repeat;_background:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://md.egloos.com/img/fnd/bg_search_form.png',sizingMethod='scale');z-index:100;vertical-align:middle;}
+
+.post_titlelist .post_search select {width:123px;height:24px;margin:0 0 5px 0;border-width:1px;border-style:solid;vertical-align:middle;font-size:14px;line-height:1.3em;}
+
+.post_titlelist .post_search .search_input {width:250px;height:22px;margin:2px 0 5px 0;*margin-right:5px;padding:0 0 0 5px;border:1px solid #d8d8d8;border-top:1px solid #c1c1c1;border-left:1px solid #c1c1c1;vertical-align:middle;font-size:12px;line-height:22px;}
+.post_titlelist .post_search .search_input #ff_q_tag {width:115px;height:22px;}
+
+.post_titlelist .post_search .search_button {width:50px;height:24px;border:0;padding:0;margin-left:0px;margin-bottom:5px;margin-top:2px;vertical-align:middle;background:url('../../img/fnd/btn_blogsearch_new.gif') 0 0 no-repeat;text-indent:-1000em;cursor:pointer;_cursor:hand;_font-size:0;}
+.post_titlelist .post_search .search_tag {font-size:.9em;font-family:'돋움';letter-spacing:-1px;padding-right:18px;background:url('../../img/fnd/tagfilter.gif') 60px -7px no-repeat;text-indent:0;}
+.post_titlelist .post_search .on {background-position:60px -45px;}
+.post_titlelist .post_search .tag_filter {padding:5px 5px 0 120px;font-size:.9em;font-family:'돋움';letter-spacing:-1px;border-top:1px solid #eeeeee;}
+.post_titlelist .post_search .search_tagfilter {width:110px;margin-right:5px;}
+
+.post_titlelist .post_search form{margin:0;padding:0;border:none;z-index:1;}
+.post_titlelist .post_search fieldset {margin:0;padding:0;border:none;text-align:center;}
+.post_titlelist .post_search fieldset a, .post_titlelist .post_search fieldset a:hover, .post_titlelist .post_search fieldset a:link, .post_titlelist .post_search fieldset a:visited{text-decoration:none;color:#555555;font-weight:normal;}
+
+.post_titlelist .post_search fieldset .category {display:inline;position:relative;border:0px solid #ff0000;margin:0;padding:0;}
+
+
+.post_titlelist .post_search fieldset .category a.type-selection {position:relative;background:#fff;border:1px solid #d8d8d8;border-top:1px solid #c1c1c1;border-left:1px solid #c1c1c1;padding:6px 3px 3px 3px;padding:5px 3px 5px 3px\9;*padding:1px 1px 0px 1px;outline:none;select-dummy:expression(this.hideFocus=true);vertical-align:middle;}
+.post_titlelist .post_search fieldset .category .type-selection span.text {display:inline-block;width:120px;text-align:left;white-space:nowrap;vertical-align:middle}
+.post_titlelist .post_search fieldset .category .type-selection img{border:0;vertical-align:middle;margin-top:-3px;margin-top:-3px\9;}
+
+.post_titlelist .post_search fieldset .category .type-selection-list-wrap {position:absolute;top:20px;*top:30px;left:0px;}
+.post_titlelist .post_search fieldset .category .type-selection-list-wrap UL{border:1px solid #d8d8d8;background:#fff;padding-left:0;margin:0;width:250px;z-index:100;height:150px;overflow-x:hidden;overflow-y:auto;}/*width:118px;_width:115px;*/
+.post_titlelist .post_search fieldset .category .type-selection-list-wrap UL li{width:100%;float:left;clear:both;list-style-type:none;list-style-image:none;text-align:left;padding:0px 3px 0px 3px;}
+.post_titlelist .post_search fieldset .category .type-selection-list-wrap UL li a{outline:none;select-dummy:expression(this.hideFocus=true);text-decoration:none;color:#555555;background:#fff;width:100%;}/*width:80px;*/
+.post_titlelist .post_search fieldset .category .search_tag_filter a:link, .post_titlelist .post_search fieldset .search_tag_filter a:visited {background:#fff;}
+.post_titlelist .post_search legend {display:none;}                    
+
+
+/* 검색결과 skin1*/
+.post_titlelist .skin1 {margin:0 10px 25px 10px;}
+.post_titlelist .skin1 fieldset .category a.type-selection {padding:3px;*padding:1px 1px 0px 1px;}
+#content p.page {margin-bottom:20px;}
+
+/* 카테고리 검색결과 skin2*/
+.post_titlelist .egloos_catetory {}
+.post_titlelist .egloos_catetory fieldset {text-align:center;}
+
+.post_titlelist .egloos_catetory2 {margin-bottom:50px;}
+.post_titlelist .egloos_catetory .search_input {width:250px;}
+
+/* 카테고리 검색결과 skin1*/
+.post_titlelist .egloos_catetory_skin1  {margin-top:30px;margin-left:10px;margin-right:10px;}
+.post_titlelist .egloos_catetory_skin1 fieldset {text-align:center;}
+.post_titlelist .egloos_catetory_skin1 .search_input {width:250px;}
+
+/*밸리메인 페이징 하단 검색 */
+
+#rightMain .post_titlelist {clear:both;text-align:left;margin:47px 0;border:0px solid #ff0000;}
+
+#rightMain .post_titlelist .post_search {position:static;margin-bottom:25px;padding:15px 15px 10px 15px;text-align:center;border:1px solid #eeeeee;color:#555555;z-index:100;background:#fff;height:100%;}
+#rightMain .post_titlelist .post_search select {width:123px;height:24px;margin:0 0 5px 0;border-width:1px;border-style:solid;vertical-align:middle;font-size:12px;line-height:1.3em;}
+
+#rightMain .post_titlelist .post_search .search_input {width:325px;height:22px;margin:0 0 5px 0;padding:0 0 0 5px;border:1px solid #d8d8d8;border-top:1px solid #c1c1c1;border-left:1px solid #c1c1c1;vertical-align:middle;font-size:12px;line-height:22px;color:#AAAAAA;}
+#rightMain .post_titlelist .post_search .search_input #ff_q_tag {width:115px;height:22px;}
+
+#rightMain .post_titlelist .post_search .search_button {width:50px;height:24px;border:0;padding:0;margin-left:7px;margin-bottom:5px;vertical-align:middle;background:url('../../img/fnd/btn_blogsearch_new.gif') 0 0 no-repeat;text-indent:-1000em;cursor:pointer;_cursor:hand;_font-size:0;}
+#rightMain .post_titlelist .post_search .search_tag {font-size:.9em;font-family:'돋움';letter-spacing:-1px;padding-right:24px;background:url('../../img/fnd/tagfilter.gif') 60px -7px no-repeat;text-indent:0;}
+#rightMain .post_titlelist .post_search .on {background-position:60px -45px;}
+#rightMain .post_titlelist .post_search .tag_filter {padding:5px 15px 0 127px;font-size:.9em;font-family:'돋움';letter-spacing:-1px;border-top:1px solid #eeeeee;}
+#rightMain .post_titlelist .post_search .search_tagfilter {width:110px;margin-right:5px;}
+
+#rightMain .post_titlelist .post_search form{margin:0;padding:0;border:none;}
+#rightMain .post_titlelist .post_search fieldset {margin:0;padding:0;border:none;text-align:left;}
+#rightMain .post_titlelist .post_search fieldset a, #rightMain .post_titlelist .post_search fieldset a:hover, #rightMain .post_titlelist .post_search fieldset a:link, #rightMain .post_titlelist .post_search fieldset a:visited{text-decoration:none;color:#555555;font-weight:normal;}
+
+#rightMain .post_titlelist .post_search fieldset .category {position:relative;text-align:left;z-index:1;}
+#rightMain .post_titlelist .post_search fieldset .category a:link, #rightMain .post_titlelist .post_search fieldset .category a:visited {background:#fff;}
+
+#rightMain .post_titlelist .post_search fieldset .type-selection {position:relative;float:left;border:1px solid #d8d8d8;border-top:1px solid #c1c1c1;border-left:1px solid #c1c1c1;height:21px;width:112px;margin-right:5px;padding:1px 3px 0px;}
+#rightMain .post_titlelist .post_search fieldset .type-selection span {overflow:hidden;white-space:nowrap;width:84px;}
+
+#rightMain .post_titlelist .post_search fieldset .type-selection span.arrow {position:absolute; top:2px;right:2px;font:0px/0 arial;background:url('../../img/fnd/arrow_image.gif');width:17px;height:19px;}
+#rightMain .post_titlelist .post_search fieldset .type-selection-list-wrap {position:relative;float:left;z-index:100;}
+#rightMain .post_titlelist .post_search fieldset .type-selection-list-wrap UL{position:absolute;left:-125px;border:1px solid #d8d8d8;background:#fff;padding-left:0;*margin-left:0;*margin-top:3px;top:-10px; width:118px;z-index:100;height:40px;overflow-x:hidden;overflow-y:auto;}/*width:118px;_width:115px;*/
+#rightMain .post_titlelist .post_search fieldset .type-selection-list-wrap UL li {width:100%;float:left;clear:both;list-style-type:none;list-style-image:none;text-align:left;padding:0px 3px 0px 3px;}
+#rightMain .post_titlelist .post_search fieldset .type-selection-list-wrap UL li a{text-decoration:none;color:#555555;background:#fff;width:100%;}/*width:80px;*/
+#rightMain .post_titlelist .post_search fieldset .search_tag_filter a:link, .post_titlelist .post_search fieldset .search_tag_filter a:visited {background:#fff;}
+
+#rightMain .post_titlelist .post_search legend {display:none;}                    
+
+
+
+#rightMain .post_titlelist {float:left;text-align:left;margin:47px 0;}
+#rightMain .post_titlelist .valley_catetory {clear:both;text-align:left;float:left;}
+#rightMain .post_titlelist .valley_catetory .category {display:inline;}
+
+#rightMain .post_titlelist .valley_catetory .search_button {margin-left:0;}
+#rightMain .post_titlelist .valley_catetory .search_input {width:380px;_width:375px;*margin-right:3px;}
+
+#rightMain .post_titlelist .valley_catetory ul {margin-top:13px;}
+#rightMain .post_titlelist .valley_catetory fieldset a {_margin-top:2px;}
+#rightMain .post_titlelist .valley_catetory fieldset a, .post_titlelist .valley_catetory fieldset a:hover, .post_titlelist .valley_catetory fieldset a:link, #rightMain .post_titlelist .valley_catetory fieldset a:visited {line-height:20px;}
+
+/*밸리메인 검색 리스트 */
+#rightMain ul.main_search .thumb {margin-right:20px;}
+#rightMain ul.main_search dl dt {font-weight:normal;color:#bbbbbb;padding-top:1px;}
+#rightMain ul.main_search dl dt img{display:none;}
+#rightMain ul.main_search dl dt a.in_theme {display:none;}
+#rightMain ul.main_search dl dt a,  #rightMain ul.main_search dl dt a:link, #rightMain ul.main_search dl dt a:visited, #rightMain ul.main_search dl dt a:active, #rightMain ul.main_search dl dt a:hover{font-family:굴림;font-size:12px;color:#006699; text-decoration:underline;}
+#rightMain ul.main_search dl dt a span.result, #rightMain ul.postList1 dl dd p.summary span.result {font-weight:bold;}
+#rightMain ul.main_search dl dd p.summary {margin-bottom:5px;font-family:굴림;font-size:12px;margin-top:5px;}
+#rightMain ul.main_search dl dd a,  #rightMain ul.main_search dl dd a:link, #rightMain ul.main_search dl dd a:visited, #rightMain ul.main_search dl dd a:active, #rightMain ul.main_search dl dd a:hover, #rightMain ul.main_search dl dd a:active {font-family:굴림;font-size:12px;color:#006699;text-decoration:none;}
+
+
+
+/*밸리메인 검색 리스트 */
+#rightMain ul.main_search .thumb {margin-right:20px;}
+#rightMain ul.main_search dl dt {font-weight:normal;color:#bbbbbb;padding-top:1px;}
+#rightMain ul.main_search dl dt img{display:none;}
+#rightMain ul.main_search dl dt a.in_theme {display:none;}
+#rightMain ul.main_search dl dt a,  #rightMain ul.main_search dl dt a:link, #rightMain ul.main_search dl dt a:visited, #rightMain ul.main_search dl dt a:active, #rightMain ul.main_search dl dt a:hover{font-family:굴림;font-size:12px;color:#006699; text-decoration:underline;}
+#rightMain ul.main_search dl dt a span.result, #rightMain ul.postList1 dl dd p.summary span.result {font-weight:bold;}
+#rightMain ul.main_search dl dd p.summary {margin-bottom:5px;font-family:굴림;font-size:12px;margin-top:5px;}
+#rightMain ul.main_search dl dd a,  #rightMain ul.main_search dl dd a:link, #rightMain ul.main_search dl dd a:visited, #rightMain ul.main_search dl dd a:active, #rightMain ul.main_search dl dd a:hover, #rightMain ul.main_search dl dd a:active {font-family:굴림;font-size:12px;color:#006699;text-decoration:none;}
+
+
+/*벨리 태그검색 */
+.sideBox1 .theme h3{font:12px 돋움 #333333;font-weight:bold;padding-left:13px;background:url('../../img/valley/bg_tag_popular.gif') 0 0 no-repeat;}
+.sideBox1 .theme h3 span.tagmsg{font-weight:normal;}
+
+
+
+/*테마 페이지 하단 검색창 */
+
+/*.theme_tag_search {float:left;text-align:left;margin-top:30px;}*/
+.theme_tag_search {margin-top:30px;margin-left:70px;_width:590px;}
+.theme_tag_search .post_search {clear:both;text-align:left;float:left;background:#fff;}
+.theme_tag_search .post_search .category {display:inline;}
+.theme_tag_search .post_search .search_input {width:490px;_width:490px;*margin-right:3px;margin-left:0;color:#aaaaaa;}
+.theme_tag_search .post_search fieldset a, .theme_tag_search .post_search fieldset a:hover, .theme_tag_search .post_search fieldset a:link, .theme_tag_search .post_search fieldset a:visited {line-height:20px;}
+.theme_tag_search .post_search fieldset .type-selection-list-wrap UL{top:20px;}
+
+
+/*밸리테마 페이징 하단 검색 */
+#rightMain .post_titlelist {float:left;text-align:left;margin:47px 0;width:100%;}
+#rightMain .post_titlelist .theme {clear:both;text-align:left;float:left;}
+#rightMain .post_titlelist .theme .category {display:inline;}
+
+#rightMain .post_titlelist .theme .search_button {margin-left:0;}
+#rightMain .post_titlelist .theme .search_input {width:380px;_width:375px;*margin-right:3px;}
+
+#rightMain .post_titlelist .theme ul {margin-top:13px;}
+#rightMain .post_titlelist .theme fieldset a {_margin-top:2px;}
+#rightMain .post_titlelist .theme fieldset a, .post_titlelist .theme fieldset a:hover, .post_titlelist .theme fieldset a:link, #rightMain .post_titlelist .theme fieldset a:visited {line-height:20px;}
+
+/*태그 페이지 검색 리스트 */
+/*#content content_mainul {width:100%;}*/
+#content ul.tag_search .thumb {margin-right:20px;}
+#content ul.tag_search dl dt {font-weight:normal;color:#bbbbbb;padding-top:1px;}
+#content ul.tag_search dl dt img{display:none;}
+#content ul.tag_search dl dt a.in_theme {display:none;}
+#content ul.tag_search dl dt a,  #rightMain ul.tag_search dl dt a:link, #rightMain ul.tag_search dl dt a:visited, #rightMain ul.tag_search dl dt a:active, #content ul.tag_search dl dt a:hover{font-family:굴림;font-size:12px;color:#006699; text-decoration:underline;}
+#content ul.tag_search dl dt a span.result, #rightMain ul.postList1 dl dd p.summary span.result {font-weight:bold;}
+#content ul.tag_search dl dd p.summary {margin-bottom:5px;font-family:굴림;font-size:12px;margin-top:5px;font-weight:normal;}
+#content ul.tag_search dl dd a,  #rightMain ul.tag_search dl dd a:link, #rightMain ul.tag_search dl dd a:visited, #rightMain ul.tag_search dl dd a:active, #content ul.tag_search dl dd a:hover, #rightMain ul.tag_search dl dd a:active {font-family:굴림;font-size:12px;color:#006699;text-decoration:none;font-weight:normal;}
+
+
+/*밸리테마 하단 검색*/
+
+.post_titlelist .valley_catetory fieldset .type-selection span.text {overflow:hidden;white-space:nowrap;width:102px;}
+.post_titlelist .valley_catetory fieldset .type-selection-list-wrap ul {width:118px;height:40px;}
+.post_titlelist .valley_catetory fieldset .type-selection-list-wrap ul li{width:100%;}
+

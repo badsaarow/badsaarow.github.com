@@ -1,0 +1,121 @@
+﻿body {margin:0;padding:0;background-color:#000;font:12px '돋움','Trebuchet MS',sans-serif;color:#999;}
+a:link,a:visited {background-color:inherit;color:#c64d1c;text-decoration:none;}
+a:hover,a:active {background-color:inherit;color:#fff;text-decoration:none;}
+hr.line,span.dash{display:none;}
+img {border:0;vertical-align:middle;}
+.clear {clear:both;}
+#container {background:url('bg_type3.gif') 0 0 repeat-x;}
+/***** HEADER START *****/
+#header {position:relative;width:800px;height:88px;margin:0 auto;padding:0;background:url('bgt_type3.gif') 0 0 no-repeat;letter-spacing:1px;}
+#header h1.title {margin:0;padding:25px 0 0 0;font:bold 18px 'Trebuchet MS','돋움',sans-serif;}
+#header .url {margin:0;padding:0 0 0 2px;font:normal 12px Tahoma,arial,sans-serif;letter-spacing:0;}
+	#header .url a:link,#header .url a:visited {background-color:inherit;color:#999;text-decoration:none;}
+	#header .url a:hover,#header .url a:active {background-color:inherit;color:#c64d1c;text-decoration:none;}
+	#header .url span.split {font-size:0.8em;color:#ccc;}
+	#header .url span.stat {font:11px '돋움',sans-serif;}
+#header .adminmenu {position:absolute;top:0;right:0;margin:0;padding:0;font:11px Tahoma,sans-serif;color:#000;}
+	#header .adminmenu a:link,#header .adminmenu a:visited {background-color:inherit;color:#999;text-decoration:none;}
+	#header .adminmenu a:hover,#header .adminmenu a:active {background-color:inherit;color:#c64d1c;text-decoration:none;}
+/***** HEADER END *****/
+/***** CONTENT START *****/
+#content {clear:both;width:800px;margin:0 auto;}
+/*** .header START ***/
+#content h2.album_title {float:left;width:650px;margin:10px 0 5px 0;padding:0 0 0 16px;background:url('ico_album_type1.gif') 0 0 no-repeat;}
+	#content h2.album_title span.title {font:bold 12px '돋움',sans-serif;}
+	#content h2.album_title span.stat {font:normal 11px '돋움',sans-serif;padding-left:5px;}
+	#content h2.album_title span.datetime {font:normal 11px Tahoma,arial,sans-serif;padding:0 0 5px 7px;}
+#content .blogging {float:right;position:relative;margin-top:15px;padding-right:2px;text-align:right;font:11px;z-index:10;}
+#content .blogging a.icon {background:url('ico_send_type1.gif') 0 0 no-repeat;padding-left:15px;}
+/*** .header END ***/
+/*** .image START ***/
+#content .image {clear:both;margin:0;padding:0 0 5px 0;text-align:center;width:800px;overflow:auto;_zoom:1;}
+	table.photo_area {background-color:#222;}
+	table.photo_area td {width:800px;height:300px;padding:0;}
+#content .image div.info {clear:both;margin:0 0 1px 0;padding-bottom:1px;font-size:11px;border-top:5px solid #000;}
+#content .image div.info p.tag {float:left;width:720px;margin:5px 0 0 0;padding:0 0 2px 0;text-align:left;line-height:180%;}
+#content .image div.info p.tag a {background-color:#333;padding:2px 2px 0 2px;line-height:130%;}
+#content .image div.info div.action {float:right;width:75px;text-align:right;margin-top:5px;padding:2px 0;}
+#content .image div.info div.action img {vertical-align:middle;}
+/*** .image END ***/
+/*** .thumbnail START ***/
+#content .thumbnail {clear:both;}
+#content ul.thumbnail {width:800px;margin:0 auto;padding:0;list-style:none;text-align:center;overflow:auto;_zoom:1;}
+#content ul.thumbnail li {width:74px;height:74px;float:left;z-index:1;text-align:center;margin:0 6px 6px 0;}
+#content ul.thumbnail li img {width:70px;height:70px;margin:2px;}
+#content ul.thumbnail li a:link, #content ul.thumbnail li a:visited {display:block;width:74px;height:74px;background-color:#666;}
+#content ul.thumbnail li a:hover, #content ul.thumbnail li a:active {display:block;width:74px;height:74px;background-color:#D16F47;}
+#content ul.thumbnail li a.current {background-color:#D16F47;}
+#content ul.thumbnail li a.current:link,#content ul.thumbnail li a.current:visited,#content ul.thumbnail li a.current:hover,#content ul.thumbnail li a.current:active {background-color:#D16F47;}
+#content p.desc {clear:left;margin:10px 0 0 0;padding:10px 0 0 0;line-height:130%;border-top:1px solid #222;overflow:hidden;word-break:break-all;}
+/*** .thumbnail END ***/
+/***** CONTENT END *****/
+/***** COMMENT START *****/
+.comment {clear:both;width:738px;margin:45px auto 0 auto;padding:10px 30px;border:1px solid #222;}
+.cmt_count {text-align:right;}
+.cmt_wrap {clear:both;border-top:1px dashed #222;}
+	.comment .top {border:none;}
+.cmt_message {padding:20px 0;_padding-top:10px;}
+.cmt_thumb {float:left;margin:20px 10px 30px 0;}
+.cmt_thumb img {width:40px;height:40px;border:1px solid #666;}
+.cmt_tail {margin:0;font:11px tahoma,sans-serif;padding-top:20px;}
+.cmt_tail a {font:bold 12px '돋움',sans-serif;}
+.cmt_tail a:link,.cmt_tail a:visited {background-color:inherit;color:#ccc;text-decoration:none;}
+.cmt_tail a:hover,.cmt_tail a:active {background-color:inherit;color:#c64d1c;text-decoration:none;}
+.cmt_tail img {vertical-align:middle;margin-bottom:2px;_margin-bottom:0;}
+.cmt_body {width:670px;margin:0;padding:5px 0 20px 0;line-height:130%;overflow:hidden;word-break:break-all;}
+.cmt_input {clear:both;background-color:#222;margin:20px 0;padding:20px 25px 15px 25px;font-size:11px;overflow:auto;_zoom:1;} .cmt_input form {margin:0;padding:0;}
+.cmt_input p {margin:0;padding:0;} .cmt_input p input,.cmt_input p textarea {padding:2px;vertical-align:middle;font:12px '돋움',sans-serif;color:#aaa;background-color:#666;border:1px solid #777;margin-bottom:2px;_margin-bottom:2px;}
+	p.cmt_name {float:left;padding-bottom:5px;} input#name {width:100px;height:12px;}
+	p.cmt_passwd {float:left;padding-left:15px;} input#passwd {width:80px;height:12px;}
+	p.cmt_homepage {float:left;padding-left:15px;} input#homepage {width:200px;height:12px;}
+	p.cmt_textarea {padding-bottom:1px;} textarea#comment {width:676px;height:55px;}
+	p.cmt_secret {float:left;font-size:11px;padding-top:3px;} p.cmt_secret input {background-color:#222;border:none;margin-bottom:5px;}
+	p.cmt_submit {float:right;} p.cmt_submit input {background-color:#222;border:none;}
+.re_cmt_wrap {margin:0 0 0 72px;}
+.re_cmt_tail {margin:0;padding:0;width:650px;font:11px tahoma,sans-serif;}
+.re_cmt_tail a {font:bold 12px '돋움',sans-serif;}
+.re_cmt_tail a:link,.re_cmt_tail a:visited {background-color:inherit;color:#ccc;text-decoration:none;}
+.re_cmt_tail a:hover,.re_cmt_tail a:active {background-color:inherit;color:#c64d1c;text-decoration:none;}
+.re_cmt_tail img {vertical-align:middle;margin-bottom:2px;_margin-bottom:0;}
+.re_cmt_body {margin:0;padding:5px 0 20px 0;width:650px;line-height:130%;overflow:hidden;word-break:break-all;}
+.re_cmt_input {clear:both;margin:0 0 0 72px;padding:0 0 20px 0;width:650px;font-size:11px;overflow:auto;_zoom:1;}  .re_cmt_input form {margin:0;padding:0;}
+.re_cmt_input p {margin:0;padding:0;} .re_cmt_input p input,.re_cmt_input p textarea {padding:2px;vertical-align:middle;font:12px '돋움',sans-serif;color:#aaa;background-color:#666;border:1px solid #777;margin-bottom:2px;_margin-bottom:0;}
+	p.re_cmt_name {float:left;padding-bottom:5px;} input#re_name {width:100px;height:12px;}
+	p.re_cmt_passwd {float:left;padding-left:15px;} input#re_passwd {width:80px;height:12px;}
+	p.re_cmt_homepage {float:left;padding-left:15px;} input#re_homepage {width:200px;height:12px;}
+	p.re_cmt_textarea {float:left;} textarea#re_comment {width:570px;height:26px;}
+	p.re_cmt_submit {float:left;padding-left:5px;} p.re_cmt_submit img {padding:0;border:1px solid #222;}
+/***** COMMENT END *****/
+/***** FOOTER START *****/
+#prevnext {text-align:center;padding:25px 0 2px 0;color:#000;}
+#footer {margin:0 auto;font:10px tahoma,sans-serif;text-align:right;letter-spacing:1px;}
+#footer .submenu {background-color:#222;height:28px;margin-top:10px;}
+#footer .submenu #navlist {width:800px;margin:0 auto;padding:0;list-style:none;white-space:nowrap;}
+#footer .submenu #navlist li {float:left;margin:0;padding:6px 10px 6px 10px;background-color:#222;font:11px 'Trebuchet MS',sans-serif;letter-spacing:2px;}
+#footer .license {width:800px;margin:0 auto;padding:5px 0 20px 0;text-align:right;}
+#footer .license img {vertical-align:middle;}
+/***** FOOTER END *****/
+/***** TAG EDIT MODE START *****/
+#content .image div.info form#info_edit {margin:0;background-color:#222;}
+#content .image div.info p.edit {padding-left:10px;}
+#content .image div.info input#tagbox {width:65px;height:13px;margin-right:5px;margin-bottom:2px;padding:1px 3px;font-size:11px;color:#666;border:1px solid #999;vertical-align:middle;}
+#content .image div.info p.tag a.del img {vertical-align:middle;}
+#content .image div.info div.tagedit_ok {float:right;text-align:right;margin-top:5px;padding:2px 10px 2px 0;}
+#content .image div.info p.taghelp {clear:both;margin:0;padding:0 10px 1px 10px;letter-spacing:-1px;text-align:left;}
+#content .image div.info p.taghelp strong {font:bold 12px 'Trebuchet MS',sans-serif;color:#ccc;letter-spacing:0;}
+/***** TAG EDIT MODE END *****/
+/***** ARCHIVES/TAG ONLY START *****/
+#content h2.tag_title {clear:both;margin:20px 0 0 0;padding:2px 5px;background-color:#222;}
+#content h2.tag_title span.title {font:12px 'Trebuchet MS',sans-serif;}
+#content h2.tag_title span.current {font:normal 12px 'Trebuchet MS',sans-serif;padding-left:5px;}
+#content .archive {clear:both;padding-bottom:20px;}
+#content .tag_header div.tag_cloud {clear:both;margin:10px 0;line-height:180%;font-size:12px;}
+#content .tag_header div.tag_cloud a:link,#content .tag_header div.tag_cloud a:visited {background-color:inherit;color:#999;text-decoration:none;}
+#content .tag_header div.tag_cloud a:hover,#content .tag_header div.tag_cloud a:active {background-color:inherit;color:#C64D1C;text-decoration:none;}
+#content .tag_header div.tag_cloud span a:link,#content .tag_header div.tag_cloud span a:visited {padding:3px 3px 0 3px;}
+#content .tag_header div.tag_cloud span a:hover,#content .tag_header div.tag_cloud span a:active {background-color:#000;}
+#content .tag_header div.tag_cloud span.current {background-color:#C64D1C;font-weight:bold;}
+#content .tag_header div.tag_cloud span.current a:link, #content .tag_header div.tag_cloud span.current a:visited {background-color:#C64D1C;color:#000;}
+#content .tag_header div.tag_cloud span.current a:hover, #content .tag_header div.tag_cloud span.current a:active {background-color:#C64D1C;color:#000;}
+#content .tag_header div.tag_cloud span.help {display:block;font-size:11px;padding-top:10px;}
+/***** ARCHIVES/TAG ONLY END *****/

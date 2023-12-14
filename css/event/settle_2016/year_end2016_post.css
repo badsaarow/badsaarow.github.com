@@ -1,0 +1,232 @@
+﻿@charset "utf-8";
+
+/* 결산영역 css reset */
+.year_end_wrap{position:relative;margin:0 auto;width:100%;max-width:550px;height:100%;line-height:1.2;font-size:14px;color:#000;font-family:'맑은 고딕','Malgun Gothic','굴림',Gulim,'Apple SD Gothic Neo',sans-serif}
+.year_end_wrap a, .year_end_wrap abbr, .year_end_wrap acronym, .year_end_wrap address, .year_end_wrap applet, .year_end_wrap article, .year_end_wrap aside, .year_end_wrap audio, .year_end_wrap b, .year_end_wrap bdi, .year_end_wrap bdo, .year_end_wrap big, .year_end_wrap blockquote, .year_end_wrap body, .year_end_wrap button, .year_end_wrap canvas, .year_end_wrap caption, .year_end_wrap center, .year_end_wrap cite, .year_end_wrap code, .year_end_wrap dd, .year_end_wrap del, .year_end_wrap details, .year_end_wrap dfn, .year_end_wrap div, .year_end_wrap dl, .year_end_wrap dt, .year_end_wrap em, .year_end_wrap embed, .year_end_wrap fieldset, .year_end_wrap figcaption, .year_end_wrap figure, .year_end_wrap footer, .year_end_wrap form, .year_end_wrap header, .year_end_wrap hgroup, .year_end_wrap h1, .year_end_wrap h2, .year_end_wrap h3, .year_end_wrap h4, .year_end_wrap h5, .year_end_wrap h6, .year_end_wrap html, .year_end_wrap i, .year_end_wrap iframe, .year_end_wrap img, .year_end_wrap input, .year_end_wrap ins, .year_end_wrap kbd, .year_end_wrap label, .year_end_wrap legend, .year_end_wrap li, .year_end_wrap map, .year_end_wrap mark, .year_end_wrap menu, .year_end_wrap nav, .year_end_wrap object, .year_end_wrap ol, .year_end_wrap p, .year_end_wrap pre, .year_end_wrap q, .year_end_wrap rp, .year_end_wrap rt, .year_end_wrap ruby, .year_end_wrap s, .year_end_wrap samp, .year_end_wrap section, .year_end_wrap select, .year_end_wrap small, .year_end_wrap span, .year_end_wrap strike, .year_end_wrap strong, .year_end_wrap summary, .year_end_wrap sub, .year_end_wrap sup, .year_end_wrap table, .year_end_wrap tbody, .year_end_wrap td, .year_end_wrap textarea, .year_end_wrap tfoot, .year_end_wrap th, .year_end_wrap thead, .year_end_wrap time, .year_end_wrap tr, .year_end_wrap tt, .year_end_wrap u, .year_end_wrap ul, .year_end_wrap var, .year_end_wrap video{margin:0;padding:0;font-size:100%;border:0;vertical-align:baseline}
+.year_end_wrap input, .year_end_wrap select, .year_end_wrap textarea{color:#000;padding:0;margin:0}
+.year_end_wrap .blind{position:absolute !important;font-size:0 !important;visibility:hidden !important}
+.year_end_wrap legend, .year_end_wrap caption, .year_end_wrap hr{display:none}
+.year_end_wrap ol, .year_end_wrap ul{list-style:none}
+.year_end_wrap a{text-decoration:none}
+.year_end_wrap a:hover{text-decoration:underline}
+.year_end_wrap img{vertical-align:top}
+/* 결산영역 css reset */
+
+/* 기본css 오버라이드 처리 */
+#container .post_content .post .year_end_wrap a{color:#000;text-decoration:none}
+#container .post_content .post .year_end_wrap a:hover{text-decoration:underline}
+#container .post_content .post .year_end_wrap .year_end_tag li a,
+
+#container .post_content .post .year_end_wrap .year_end_valley li a{text-decoration:none}
+/* 기본css 오버라이드 처리 */
+
+/* header */
+.year_end_wrap .year_end_header{position:relative;padding-top:70px;height:288px}
+.year_end_wrap .year_end_header .year_end_header_wrap{position:relative;margin:0 auto;min-width:550px;background:#fff}
+.year_end_wrap .year_end_header .logo_area{display:none;position:relative;height:45px;border-bottom:1px solid #4A5357}
+.year_end_wrap .year_end_header .logo_area h1 a{display:inline-block;padding:0 2px}
+.year_end_wrap .year_end_header .year_end_title h2{text-align:center}
+.year_end_wrap .year_end_header .year_end_guide{display:none;position:absolute;top:215px;left:2px;line-height:23px;color:#fff;font-size:16px}
+.year_end_wrap .year_end_header .year_end_guide p{padding-bottom:11px}
+.year_end_wrap .year_end_header .year_end_guide .user_name{color:#5cd2ff}
+.year_end_wrap .year_end_header .year_end_posting{display:none;position:relative;height:48px;line-height:49px;font-size:13px;color:#fff;background:#36C2F8;zoom:1}
+.year_end_wrap .year_end_header .year_end_posting:after{content:'';display:block;clear:both;line-height:0}
+.year_end_wrap .year_end_header .year_end_posting .posting_my_blog{float:left;position:relative;padding:0 26px;height:100%}
+.year_end_wrap .year_end_header .year_end_posting .posting_my_blog .img_text{display:block;position:relative;margin-top:16px;width:159px;height:16px;cursor:pointer;background:url('../../../img/event/settle_2016/spr_year_end2016.png') 0 0 no-repeat}
+.year_end_wrap .year_end_header .year_end_posting .year_end_text{display:block;position:absolute;top:0;right:22px;letter-spacing:-1px}
+/* header */
+
+.year_end_wrap .year_end_container{position:relative;margin:0 auto;padding-bottom:50px;min-width:550px;background:#fff}
+.year_end_wrap .year_end_container .year_end_content{position:relative}
+.year_end_wrap .year_end_content{position:relative}
+
+/* 순위 영역 */
+.year_end_wrap .year_end_content .year_end_rank{position:relative;padding:36px 0 45px;border-bottom:1px solid #EDEDED;text-align:center}
+.year_end_wrap .year_end_rank p{position:relative;margin-top:18px;font-size:16px}
+.year_end_wrap .year_end_rank p .user_name{font-weight:bold}
+.year_end_wrap .year_end_rank p.rank_num{margin:4px 0 0 28px;font-size:18px;color:#36c2f8;letter-spacing:-1px}
+.year_end_wrap .year_end_rank p.rank_num strong{font-size:60px}
+.year_end_wrap .year_end_rank p.rank_num .rank_text{position:relative;top:-3px}
+.year_end_wrap .year_end_rank p .ico{display:inline-block;position:relative;width:91px;height:92px;background:url('../../../img/event/settle_2016/spr_year_end2016.png') 999px 0 no-repeat}
+.year_end_wrap .year_end_rank p .ico.trophy{margin-left:28px;background-position:0 -20px}
+/* 순위 영역 */
+
+/* 컨텐츠 공통 영역 */
+.year_end_wrap .year_end_content .year_end_set{position:relative;margin:0 auto;padding:63px 0;width:499px}
+.year_end_wrap .year_end_content .year_end_set.year_end_graph.no_result,
+.year_end_wrap .year_end_content .year_end_set.year_end_table_form.no_result,
+.year_end_wrap .year_end_content .year_end_set.year_end_tag.no_result,
+.year_end_wrap .year_end_content .year_end_set.year_end_valley.no_result,
+.year_end_wrap .year_end_content .year_end_set.year_end_activity.no_result{display:none}
+.year_end_wrap .year_end_content .year_end_set.horizontal.no_result{padding-bottom:44px}
+.year_end_wrap .year_end_content .year_end_set .no_result_guide{display:none;position:relative;padding:69px 0 95px}
+.year_end_wrap .year_end_content .year_end_set.no_result .no_result_guide{display:block}
+.year_end_wrap .year_end_content .year_end_set.horizontal.no_result .no_result_guide{padding:189px 0 199px;border-top:1px solid #8A8A8A;border-bottom:1px solid #E5E5E5}
+.year_end_wrap .year_end_content .year_end_set.no_result .graph_wrap,
+.year_end_wrap .year_end_content .year_end_set.no_result .keyword_wrap .keyword_list,
+.year_end_wrap .year_end_content .year_end_set.no_result .favorite_tag_wrap,
+.year_end_wrap .year_end_content .year_end_set.no_result .activity_wrap,
+.year_end_wrap .year_end_content .year_end_set.no_result .favorite_valley_wrap{display:none}
+.year_end_wrap .year_end_content .year_end_set .no_result_guide{font-size:16px;text-align:center}
+.year_end_wrap .year_end_content .year_end_set.year_end_table_form .no_result_guide{padding-top:57px;line-height:26px;font-size:14px}
+.year_end_wrap .year_end_content .year_end_set.year_end_table_form .no_result_guide p{padding-top:15px}
+.year_end_wrap .year_end_content .year_end_set.year_end_table_form .no_result_guide p:first-child{padding-top:0}
+.year_end_wrap .year_end_content .year_end_set.year_end_table_form .no_result_guide a{color:#000;text-decoration:underline}
+.year_end_wrap .year_end_set h4{position:relative;height:30px}
+.year_end_wrap .year_end_set h4 .title_text{display:inline-block;position:relative;vertical-align:middle;background:url('../../../img/event/settle_2016/spr_year_end2016.png') 999px 0 no-repeat}
+.year_end_wrap .year_end_set h4 .title_text.post{width:48px;height:14px;background-position:-240px -65px}
+.year_end_wrap .year_end_set h4 .title_text.reply{width:31px;height:17px;background-position:-300px -65px}
+.year_end_wrap .year_end_set h4 .title_text.monthly{width:103px;height:17px;background-position:-100px -90px}
+.year_end_wrap .year_end_set h4 .title_text.post_comparison{width:104px;height:17px;background-position:-210px -90px}
+.year_end_wrap .year_end_set h4 .title_text.favorite_tag{width:119px;height:17px;background-position:0 -120px}
+.year_end_wrap .year_end_set h4 .title_text.favorite_valley{width:119px;height:17px;background-position:-125px -120px}
+.year_end_wrap .year_end_set h4 .title_text.search_keyword{width:118px;height:17px;background-position:-125px -145px}
+.year_end_wrap .year_end_set h4 .title_text.popular_post{width:155px;height:17px;background-position:0 -170px}
+.year_end_wrap .year_end_set h4 .title_text.hot_post{width:157px;height:17px;background-position:-170px -170px}
+.year_end_wrap .year_end_set h4 .title_text.top5{width:148px;height:17px;background-position:0 -195px}
+.year_end_wrap .year_end_set h4 .num_text{position:relative;top:-1px;*top:-3px;margin-left:5px;font-size:21px;color:#36c2f8;font-weight:bold;vertical-align:middle}
+@media \0screen {
+	.year_end_wrap .year_end_set h4 .num_text{top:-2px}
+}
+
+/* 컨텐츠 공통 영역 */
+
+/* 막대그래프 세로형 */
+.year_end_wrap .year_end_content .year_end_graph{position:relative}
+.year_end_wrap .year_end_graph .graph_wrap{position:relative;margin-top:32px}
+.year_end_wrap .year_end_graph .graph_wrap ul{position:relative;padding:0 20px;border-bottom:1px solid #8A8A8A;zoom:1}
+.year_end_wrap .year_end_graph ul:after{content:'';display:block;clear:both;line-height:0}
+.year_end_wrap .year_end_graph li{float:left;position:relative;margin-left:9px;width:30px;height:150px;text-align:center}
+.year_end_wrap .year_end_graph li:first-child{margin-left:0}
+.year_end_wrap .year_end_graph li dl{position:relative;width:100%;height:100%}
+.year_end_wrap .year_end_graph li dt{display:block;position:absolute;bottom:-22px;left:0;width:100%;color:#919191;font-size:11px}
+.year_end_wrap .year_end_graph li dd{position:relative;width:100%;height:100%}
+.year_end_wrap .year_end_graph li dd .bar_wrap{display:block;position:relative;width:100%;height:100%}
+.year_end_wrap .year_end_graph li dd .bar_wrap .bar{display:block;position:absolute;bottom:0;left:0;width:100%;height:0%;background:#B3E7FB}
+.year_end_wrap .year_end_graph li dd.highest .bar_wrap .bar{background:#5DD0FC}
+.year_end_wrap .year_end_graph li dd .num_text{display:block;position:absolute;top:8px;left:0;width:100%;font-size:12px}
+.year_end_wrap .year_end_graph li dd.low .num_text{top:-16px}
+/* 막대그래프 세로형 */
+
+/* 막대그래프 가로 비교형 */
+.year_end_wrap .year_end_graph.horizontal .graph_wrap{margin-top:0}
+.year_end_wrap .year_end_graph.horizontal .graph_wrap .year_end_legend{position:absolute;top:-27px;right:0;zoom:1}
+.year_end_wrap .year_end_graph.horizontal .year_end_legend:after{content:'';display:block;clear:both;line-height:0}
+.year_end_wrap .year_end_graph.horizontal .year_end_legend .legend_list{float:left;position:relative;margin-left:19px;padding-left:15px;font-size:12px;font-weight:bold}
+.year_end_wrap .year_end_graph.horizontal .year_end_legend .legend_list .ico{display:block;position:absolute;top:50%;left:0}
+.year_end_wrap .year_end_graph.horizontal .year_end_legend .legend_list .ico.mark{margin-top:-5px;width:10px;height:10px;background:#EBEBEB}
+.year_end_wrap .year_end_graph.horizontal .year_end_legend .legend_list.point .ico.mark{background:#5DD0FC}
+.year_end_wrap .year_end_graph.horizontal ul{padding:13px 0 18px 0;border-top:1px solid #8A8A8A;border-bottom:1px solid #E5E5E5}
+.year_end_wrap .year_end_graph.horizontal li{float:none;margin:6px 0 0 0;width:auto;height:25px;vertical-align:top}
+.year_end_wrap .year_end_graph.horizontal li dl{padding-left:59px;width:auto}
+.year_end_wrap .year_end_graph.horizontal li dt{top:0;bottom:auto;width:auto;height:25px;line-height:25px;text-align:left}
+.year_end_wrap .year_end_graph.horizontal li dd{float:left;width:50%}
+.year_end_wrap .year_end_graph.horizontal li dd .bar_wrap{position:absolute;top:0;left:0}
+.year_end_wrap .year_end_graph.horizontal li dd.past .bar_wrap{left:auto;right:0}
+.year_end_wrap .year_end_graph.horizontal li dd .bar_wrap .bar{bottom:auto;top:0;height:25px;line-height:25px;background:#5DD0FC}
+.year_end_wrap .year_end_graph.horizontal li dd.past .bar_wrap .bar{left:auto;right:0;background:#EBEBEB}
+.year_end_wrap .year_end_graph.horizontal li dd .num_text{top:auto;left:10px;width:auto;height:25px}
+.year_end_wrap .year_end_graph.horizontal li dd.current .num_text{left:auto;right:10px}
+.year_end_wrap .year_end_graph.horizontal li dd.past.low .num_text{left:-20px}
+.year_end_wrap .year_end_graph.horizontal li dd.current.low .num_text{right:-20px}
+/* 막대그래프 가로 비교형 */
+
+/* 자주 등록한 태그 */
+.year_end_wrap .year_end_content .year_end_tag{position:relative;padding-top:42px}
+.year_end_wrap .year_end_tag .favorite_tag_wrap{position:relative;margin-top:12px}
+.year_end_wrap .year_end_tag .favorite_tag_wrap ol{position:relative;zoom:1}
+.year_end_wrap .year_end_tag ol:after{content:'';display:block;clear:both;line-height:0}
+.year_end_wrap .year_end_tag li{float:left;position:relative;margin:0 7px 14px 0;height:36px;line-height:35px;border:1px solid #E5E5E5}
+.year_end_wrap .year_end_tag li a{display:block;position:relative;overflow:hidden;padding:0 27px;height:36px;line-height:35px;font-size:14px;color:#000;text-decoration:none}
+.year_end_wrap .year_end_tag li:first-child{border-color:#5AC3F5}
+.year_end_wrap .year_end_tag li .count{font-size:12px;color:#818181}
+/* 자주 등록한 태그 */
+
+/* 자주 발행한 밸리 */
+.year_end_wrap .year_end_content .year_end_valley{position:relative;padding-top:42px}
+.year_end_wrap .year_end_valley .favorite_valley_wrap{position:relative;margin:13px 0 0 1px}
+.year_end_wrap .year_end_valley .favorite_valley_wrap ol{position:relative;zoom:1}
+.year_end_wrap .year_end_valley ol:after{content:'';display:block;clear:both;line-height:0}
+.year_end_wrap .year_end_valley li{float:left;position:relative;margin-left:30px;width:146px;height:146px;line-height:21px;text-align:center;background:url('../../../img/event/settle_2016/spr_year_end2016.png') 999px 0 no-repeat}
+.year_end_wrap .year_end_valley li a{display:block;position:relative;overflow:hidden;padding-top:73px;width:100%;height:73px;line-height:21px;text-align:center;font-size:16px;color:#000;text-decoration:none}
+.year_end_wrap .year_end_valley li:first-child{margin-left:0;background-position:0 -280px}
+.year_end_wrap .year_end_valley li:first-child + li{background-position:-150px -280px}
+.year_end_wrap .year_end_valley li:first-child + li + li{background-position:-300px -280px}
+.year_end_wrap .year_end_valley li .category{display:block;font-size:16px}
+.year_end_wrap .year_end_valley li .count{display:block;font-size:14px;color:#9e9e9e}
+/* 자주 발행한 밸리 */
+
+/* 검색 유입 키워드, 내 이글루 인기 포스트, 내 이글루 HOT 포스트 테이블 폼 */
+.year_end_wrap .year_end_content .year_end_keyword{position:relative;padding-top:44px}
+.year_end_wrap .year_end_content .year_end_popular_post{position:relative;padding-top:33px}
+.year_end_wrap .year_end_content .year_end_hot_post{position:relative;padding-top:33px}
+.year_end_wrap .year_end_table_form .keyword_wrap{position:relative;margin-top:7px}
+.year_end_wrap .year_end_table_form .keyword_wrap .keyword_title{overflow:hidden;position:relative;height:36px;line-height:37px;border-top:1px solid #8A8A8A;border-bottom:1px solid #E7EFF3}
+.year_end_wrap .year_end_table_form .keyword_wrap .keyword_title:after{content:'';display:block;clear:both;line-height:0}
+.year_end_wrap .year_end_table_form .rank{float:left;position:relative;width:38px;text-align:center;font-size:12px;color:#646464}
+.year_end_wrap .year_end_table_form .keyword{overflow:hidden;float:left;position:relative;width:409px;font-size:12px;color:#646464;text-indent:5px;white-space:nowrap;text-overflow:ellipsis}
+.year_end_wrap .year_end_table_form .count{float:left;position:relative;padding-right:9px;width:43px;text-align:center;font-size:12px;color:#646464;text-align:right}
+.year_end_wrap .year_end_table_form .keyword_wrap .keyword_list{position:relative}
+.year_end_wrap .year_end_table_form .keyword_list{position:relative}
+.year_end_wrap .year_end_table_form .keyword_list ol{position:relative}
+.year_end_wrap .year_end_table_form .keyword_list li{overflow:hidden;position:relative;height:34px;line-height:35px;vertical-align:top}
+.year_end_wrap .year_end_table_form .keyword_list li:first-child{background:#F2FBFF}
+.year_end_wrap .year_end_table_form .keyword_list li:after{content:'';display:block;clear:both;line-height:0}
+.year_end_wrap .year_end_table_form .keyword_list li a{display:block;overflow:hidden;position:relative;height:34px;line-height:35px;color:#000;cursor:pointer;text-decoration:none}
+.year_end_wrap .year_end_table_form .keyword_list li a:after{content:'';display:block;clear:both;line-height:0}
+.year_end_wrap .year_end_table_form .keyword_list li .rank{position:relative;font-size:15px;color:#000}
+.year_end_wrap .year_end_table_form .keyword_list li .keyword{position:relative;font-size:14px;color:#000}
+.year_end_wrap .year_end_table_form .keyword_list li a:hover .keyword{text-decoration:underline}
+.year_end_wrap .year_end_table_form .keyword_list li .count{position:relative;padding-right:10px;width:42px;font-size:12px;color:#919191}
+.year_end_wrap .year_end_table_form .keyword_list li a .rank,
+.year_end_wrap .year_end_table_form .keyword_list li a .count{text-decoration:none}
+/* 검색 유입 키워드, 내 이글루 인기 포스트, 내 이글루 HOT 포스트 테이블 폼 */
+
+/* 내 이글루 활동 TOP5 */
+.year_end_wrap .year_end_content .year_end_activity{position:relative;padding-top:32px}
+.year_end_wrap .year_end_activity .activity_wrap{position:relative;margin-top:8px}
+.year_end_wrap .year_end_activity .activity_wrap .activity_list{position:relative}
+.year_end_wrap .year_end_activity .activity_list ol{position:relative}
+.year_end_wrap .year_end_activity .activity_list li{overflow:hidden;position:relative;margin-top:5px;height:62px;line-height:63px;border:1px solid #E5E5E5;font-size:14px}
+.year_end_wrap .year_end_activity .activity_list li:first-child{margin-top:0;border-color:#5AC3F5}
+.year_end_wrap .year_end_activity .activity_list li:after{content:'';display:block;clear:both;line-height:0}
+.year_end_wrap .year_end_activity .activity_list li a{display:block;position:relative;height:100%;color:#000;cursor:pointer;text-decoration:none}
+.year_end_wrap .year_end_activity .activity_list li a:after{content:'';display:block;clear:both;line-height:0}
+.year_end_wrap .year_end_activity .activity_list li .rank{float:left;position:relative;width:66px;height:100%}
+.year_end_wrap .year_end_activity .activity_list li .rank .ico{display:block;position:absolute;top:50%;left:50%;margin:-13px 0 0 -7px;width:17px;height:25px;background:url('../../../img/event/settle_2016/spr_year_end2016.png') 999px 0 no-repeat}
+.year_end_wrap .year_end_activity .activity_list li .rank .ico.num1{margin-left:-2px;width:7px;background-position:-350px -20px}
+.year_end_wrap .year_end_activity .activity_list li .rank .ico.num2{background-position:-350px -50px}
+.year_end_wrap .year_end_activity .activity_list li .rank .ico.num3{background-position:-350px -80px}
+.year_end_wrap .year_end_activity .activity_list li .rank .ico.num4{background-position:-350px -110px}
+.year_end_wrap .year_end_activity .activity_list li .rank .ico.num5{background-position:-350px -140px}
+.year_end_wrap .year_end_activity .activity_list li .user{float:left;position:relative;width:331px;height:100%}
+.year_end_wrap .year_end_activity .activity_list li .user:after{content:'';display:block;clear:both;line-height:0}
+.year_end_wrap .year_end_activity .activity_list li .user .thumb{float:left;position:relative;margin-right:9px;width:39px;height:100%}
+.year_end_wrap .year_end_activity .activity_list li .user .thumb .thumb_wrap{display:block;overflow:hidden;position:absolute;top:50%;left:0;margin-top:-20px;width:39px;height:39px}
+.year_end_wrap .year_end_activity .activity_list li .user .thumb .thumb_wrap img{position:absolute;top:0;left:0;width:39px;height:39px;vertical-align:top}
+.year_end_wrap .year_end_activity .activity_list li .user .thumb .thumb_wrap .thumb_mask{display:block;position:absolute;top:0;left:0;z-index:10;width:39px;height:39px;background:url('../../../img/event/settle_2016/spr_year_end2016.png') -240px -20px no-repeat}
+.year_end_wrap .year_end_activity .activity_list li .user .user_name{display:block;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+.year_end_wrap .year_end_activity .activity_list li .count{float:left;position:relative;padding-left:37px;width:63px;height:100%;font-size:12px;color:#919191}
+.year_end_wrap .year_end_activity .activity_list li .count .ico{display:block;position:absolute;top:50%;left:0;background:url('../../../img/event/settle_2016/spr_year_end2016.png') 999px 0 no-repeat}
+.year_end_wrap .year_end_activity .activity_list li .count .ico.comment{left:12px;margin-top:-7px;width:19px;height:17px;background-position:-170px 0}
+/* 내 이글루 활동 TOP5 */
+
+/* 블로그 포스팅 버튼 */
+.year_end_wrap .year_end_content .post_blog{display:none;position:relative;padding:18px 0 35px;text-align:center}
+.year_end_wrap .post_blog .btn_post_blog{display:inline-block;width:347px;height:55px;background:url('../../../img/event/settle_2016/spr_year_end2016.png') 0 -220px no-repeat}
+/* 블로그 포스팅 버튼 */
+
+/* 본문 옆 날개 버튼 */
+.year_end_wrap .year_end_container .year_end_aside_btn{display:none;position:fixed;top:50px;right:50%;margin-right:-509px}
+.year_end_wrap .year_end_aside_btn .aside_btn{display:block;width:60px;height:60px;background:url('../../../img/event/settle_2016/spr_year_end2016.png') 999px 0 no-repeat}
+.year_end_wrap .year_end_aside_btn .aside_btn.posting_blog{background-position:-100px -20px}
+.year_end_wrap .year_end_aside_btn .aside_btn.go_to_top{display:none;background-position:-170px -20px}
+.year_end_wrap .year_end_aside_btn.on_top .aside_btn.posting_blog{display:none}
+.year_end_wrap .year_end_aside_btn.on_top .aside_btn.go_to_top{display:block}
+/* 본문 옆 날개 버튼 */
+
+.year_end_wrap .year_end_footer{display:none;position:relative}
+/* 카피라이트 */
+.year_end_wrap .year_end_copyright{position:relative;margin:0 auto;padding:40px 0;min-width:550px;font-size:12px;color:#afafaf;text-align:center}
+.year_end_wrap .year_end_copyright p{position:relative}
+/* 카피라이트 */
